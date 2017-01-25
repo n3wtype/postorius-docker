@@ -22,6 +22,8 @@ del MAILMAN_USER
 del MAILMAN_PASS
 del MAILMAN_API_URL
 
+ALLOWED_HOSTS = ['*']
+
 ###### POSTORIUS CONFIG
 MAILMAN_REST_API_URL = env_unset_or_blank(
             'MAILMAN_REST_API_URL', 'mailman-core:8001')

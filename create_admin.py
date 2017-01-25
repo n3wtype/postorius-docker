@@ -14,7 +14,7 @@ def env_unset_or_blank(env, value=''):
 
 
 password = env_unset_or_blank('POSTORIUS_ADMIN_PASS', 'postoriusadmin')
-site_owner = env_unset_or_blank('MAILMAN_SITE_OWNER', 'admin@{}'.format(env_unset_or_blank('HOSTNAME', 'localhost')))
+site_owner = env_unset_or_blank('POSTORIUS_ADMIN_EMAIL', 'admin@{}'.format(env_unset_or_blank('HOSTNAME', 'localhost')))
 
 try:
     a = User.objects.get(username='admin')

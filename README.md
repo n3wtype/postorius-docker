@@ -10,17 +10,17 @@ As part of RUN command admin user is beeing auto-created with password specified
 
 ## Expected env variables
 
-**MAILMAN_REST_API_URL** - url pointing to mailman3 REST API endpoint (default: http://mailman-core:8001)
-**MAILMAN_REST_API_USER** - user used to authenticate to mailman3 API endpoint (default: restadmin)
-**MAILMAN_REST_API_PASSWORD** - password used to authenticate to mailman3 API endpoint (default: restpass)
+* **MAILMAN_REST_API_URL** - url pointing to mailman3 REST API endpoint (default: http://mailman-core:8001)
+* **MAILMAN_REST_API_USER** - user used to authenticate to mailman3 API endpoint (default: restadmin)
+* **MAILMAN_REST_API_PASSWORD** - password used to authenticate to mailman3 API endpoint (default: restpass)
 
-**POSTORIUS_SMTP_HOST** - address of smtp server which is relaying messgaes send by postorius (default: none, must be provided)
-**POSTORIUS_SMTP_PORT** - tcp port used to connect to relay smtp server (default: 25)
-**POSTORIUS_SMTP_FROM** - email address used in smtp from field for messages genearted by postorius (default: none, must be provided)
-**POSTORIUS_SMTP_USE_TLS** - TRUE/FALSE (default: FALSE)
-**POSTORIUS_SMTP_USE_SSL** - TRUE/FALSE (default: FALSE)i
+* **POSTORIUS_SMTP_HOST** - address of smtp server which is relaying messgaes send by postorius (default: none, must be provided)
+* **POSTORIUS_SMTP_PORT** - tcp port used to connect to relay smtp server (default: 25)
+* **POSTORIUS_SMTP_FROM** - email address used in smtp from field for messages genearted by postorius (default: none, must be provided)
+* **POSTORIUS_SMTP_USE_TLS** - TRUE/FALSE (default: FALSE)
+* **POSTORIUS_SMTP_USE_SSL** - TRUE/FALSE (default: FALSE)
 
-**POSTORIUS_ADMIN_PASS** - password for postorius admin user (default: postoriuspass)
+* **POSTORIUS_ADMIN_PASS** - password for postorius admin user (default: postoriuspass)
 
 
 
